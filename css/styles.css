@@ -405,14 +405,14 @@ button {
     margin: 0 auto;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)),
-        url(/images/hero-image-mob@1x.jpg);
+        url(./images/hero-image-mob@1x.jpg);
 }
 
 @media (min-resolution: 2x) {
     .section-title {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
-            url(/images/hero-image-mob@2x.jpg);
+            url(./images/hero-image-mob@2x.jpg);
     }
 }
 
@@ -458,14 +458,14 @@ button {
         max-width: 768px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
-            url(/images/hero-images-tablet@1x.jpg);
+            url(./images/hero-images-tablet@1x.jpg);
     }
 
     @media (min-resolution: 2x) {
         .section-title {
             background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                     rgba(46, 47, 66, 0.7)),
-                url(../images/hero-images-tablet@2x.jpg);
+                url(./images/hero-images-tablet@2x.jpg);
 
         }
     }
@@ -486,14 +486,14 @@ button {
         max-width: 1440px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
-            url(../images/hero-image-laptop@1x.jpg);
+            url(./images/hero-image-laptop@1x.jpg);
     }
 
     @media (min-resolution: 2x) {
         .section-title {
             background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                     rgba(46, 47, 66, 0.7)),
-                url(../images/hero-image-laptop@2x.jpg);
+                url(./images/hero-image-laptop@2x.jpg);
         }
 
     }
