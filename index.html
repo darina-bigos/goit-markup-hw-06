@@ -196,7 +196,22 @@
           <h2 id="studio" class="title title-team">Our Team</h2>
           <ul class="item-team">
             <li class="team-box">
-              <img src="./images/mark.jpg" alt="mark" width="264" />
+              <picture>
+                <source
+                  srcset="./images/mark.jpg 1x, ./images/mark-@2x.jpg 2x"
+                  media="(min-width: 1158px)"
+                />
+                <source
+                  srcset="./images/mark.jpg 1x, ./images/mark-@2x.jpg 2x"
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="./images/mark.jpg 1x, ./images/mark-@2x.jpg 2x"
+                  media="(max-width: 767px)"
+                />
+                <img src="./images/mark.jpg" alt="mark" />
+              </picture>
+
               <div class="list-name">
                 <h3 class="name-team">Mark Guerrero</h3>
                 <p class="text-team">Product Designer</p>
@@ -233,7 +248,21 @@
               </div>
             </li>
             <li class="team-box">
-              <img src="./images/tom.jpg" alt="tom" width="264" height="260" />
+              <picture>
+                <source
+                  srcset="./images/tom.jpg. 1x, ./images/tom-@2x.jpg 2x"
+                  media="(min-width: 1158px)"
+                />
+                <source
+                  srcset="./images/tom.jpg. 1x, ./images/tom-@2x.jpg 2x"
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="./images/tom.jpg. 1x, ./images/tom-@2x.jpg 2x"
+                  media="(max-width: 767px)"
+                />
+                <img src="./images/tom.jpg" alt="tom" />
+              </picture>
               <div class="list-name">
                 <h3 class="name-team">Tom Ford</h3>
                 <p class="text-team">Frontend Developer</p>
@@ -270,12 +299,21 @@
               </div>
             </li>
             <li class="team-box">
-              <img
-                src="./images/camila.jpg"
-                alt="camila"
-                width="264"
-                height="260"
-              />
+              <picture>
+                <source
+                  srcset="./images/camila.jpg 1x, ./images/camila-@2x.jpg 2x"
+                  media="(min-width: 1158px)"
+                />
+                <source
+                  srcset="./images/camila.jpg 1x, ./images/camila-@2x.jpg 2x"
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="./images/camila.jpg. 1x, ./images/camila-@2x.jpg 2x"
+                  media="(max-width: 767px)"
+                />
+                <img src="./images/camila.jpg" alt="camila" />
+              </picture>
               <div class="list-name">
                 <h3 class="name-team">Camila Garcia</h3>
                 <p class="text-team">Marketing</p>
@@ -312,12 +350,21 @@
               </div>
             </li>
             <li class="team-box">
-              <img
-                src="./images/daniel.jpg"
-                alt="daniel"
-                width="264"
-                height="260"
-              />
+              <picture>
+                <source
+                  srcset="./images/daniel.jpg. 1x, ./images/daniel-@2x.jpg 2x"
+                  media="(min-width: 1158px)"
+                />
+                <source
+                  srcset="./images/daniel.jpg. 1x, ./images/daniel-@2x.jpg 2x"
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="./images/daniel.jpg. 1x, ./images/daniel-@2x.jpg 2x"
+                  media="(max-width: 767px)"
+                />
+                <img src="./images/daniel.jpg" alt="daniel" />
+              </picture>
               <div class="list-name">
                 <h3 class="name-team">Daniel Wilson</h3>
                 <p class="text-team">UI Designer</p>
@@ -588,12 +635,14 @@
       </section>
     </main>
 
-    <!-- <footer class="footer">
+    <footer class="footer">
       <div class="container container-footer">
         <div class="logo-footer-one">
-          <a href="./index.html" class="logo-footer"
-            >Web<span class="studiologo">Studio</span></a
-          >
+          <div class="cont-logo-footer">
+            <a href="./index.html" class="logo-footer"
+              >Web<span class="studiologo">Studio</span></a
+            >
+          </div>
           <p class="footer-text">
             Increase the flow of customers and sales for your business with
             digital marketing & growth solutions.
@@ -654,7 +703,7 @@
       </div>
     </footer>
 
-    <div class="backdrop">
+    <!-- <div class="backdrop">
       <div class="modal">
         <button class="bnt-close" type="button">
           <svg class="icon-close-form" width="8" height="8">
