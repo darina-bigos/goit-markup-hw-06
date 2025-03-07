@@ -357,18 +357,27 @@
         </div>
       </section>
 
-      <!-- <section class="portfolio">
+      <section class="portfolio">
         <div class="container">
           <h2 id="portfolio" class="title title-portfolio">Our Portfolio</h2>
           <ul class="list-portfolio">
             <li class="item-portfolio">
               <div class="portfolio-block">
-                <img
-                  src="./images/banking.jpg"
-                  alt="banking"
-                  width="360"
-                  height="300"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/laptop/app-laptop@1x.jpg 1x,
+                      ./images/laptop/app-laptop@2x.jpg 2x
+                    "
+                    media="(min-width: 1158px)"
+                  />
+                  <img
+                    src="./images/banking.jpg"
+                    alt="banking"
+                    width="360"
+                    height="300"
+                  />
+                </picture>
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -480,7 +489,7 @@
       </section>
     </main>
 
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="container container-footer">
         <div class="logo-footer-one">
           <a href="./index.html" class="logo-footer"
