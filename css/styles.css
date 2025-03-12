@@ -324,7 +324,7 @@ button {
 }
 
 .mobile-menu-adress {
-  margin-bottom: auto;
+  margin-bottom: 48px;
 }
 
 .list-address-mobile {
@@ -608,6 +608,7 @@ button {
   background: #f4f4fd;
   padding-top: 96px;
   padding-bottom: 96px;
+  margin: 0 auto;
 }
 
 .title-team {
@@ -1044,7 +1045,7 @@ button {
   }
 
   .conteiner-subscribe {
-    margin-left: auto;
+    margin-left: 80px;
     gap: 0;
   }
 
@@ -1225,6 +1226,9 @@ button {
   fill: #f4f4fd;
 }
 
+.accept-check-input {
+  flex-shrink: 0;
+}
 .title-checked {
   cursor: pointer;
   font-weight: 400;
@@ -1232,6 +1236,8 @@ button {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
+  display: flex;
+  align-items: center;
 }
 
 .link-checked {
